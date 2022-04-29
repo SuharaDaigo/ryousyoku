@@ -7,7 +7,7 @@ name: ryousyoku
  
 on:
   schedule:
-   - cron: '55 10 * * *'
+   - cron: '12 11 * * *'
   # Triggers the workflow on push or pull request events but only for the main branch
   
 
@@ -34,6 +34,8 @@ jobs:
           pip install pandas
           pip install pytz
           pip install tweepy
+          pip install datetime
+          pip install openpyxl
       - name: Run script
         working-directory: scripts
         run:
