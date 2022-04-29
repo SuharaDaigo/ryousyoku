@@ -32,7 +32,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install numpy
           pip install pandas
-          pip install load_workbook
           pip install pytz
           pip install tweepy
       - name: Run script
