@@ -36,6 +36,7 @@ jobs:
           pip install pytz
           pip install tweepy
       - name: Run script
+        working-directory: scripts
         run:
           python ryousyoku-bot.jpynb
       # Runs a single command using the runners shell
