@@ -37,7 +37,7 @@ jobs:
       - name: Run script
         working-directory: scripts
         run:
-          python ryousyoku-bot.jpynb
+          python ryousyoku-bot.ipynb
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
