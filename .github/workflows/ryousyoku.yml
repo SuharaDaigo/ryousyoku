@@ -7,7 +7,7 @@ name: ryousyoku
  
 on:
   schedule:
-   - cron: '12 50 * * *'
+   - cron: '50 11 * * *'
   # Triggers the workflow on push or pull request events but only for the main branch
   
 
