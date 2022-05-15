@@ -50,8 +50,8 @@ while (i<100):
          print(cell_b_value,file=f2)
          print(file=f2)
          print("------------- 夕食 -------------",file=f2)
-         print(cell_k_value.replace("0","no B set"),file=f2)
-         print(cell_m_value.replace("0"," "),file=f2)
+         print(cell_k_value,file=f2)
+         print(cell_m_value,file=f2)
       
          i = 100
  
