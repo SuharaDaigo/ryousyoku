@@ -1,4 +1,3 @@
-$apt install ghostscript
 
 #献立を取得、エクセルに置き換え
 import camelot
