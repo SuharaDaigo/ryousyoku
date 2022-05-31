@@ -1,3 +1,5 @@
+!apt install ghostscript
+
 #献立を取得、エクセルに置き換え
 import camelot
 import pandas as pd
@@ -24,8 +26,6 @@ while (i<6):
   ftable.to_excel("ryousyoku{}.xlsx".format(i),index=False)  #エクセルファイルに
 
   #4つに分割したエクセルファイルを一つにまとめるプログラム
-import glob
-import pandas as pd
 
 files=glob.glob("ryousyoku*.xlsx")
 
