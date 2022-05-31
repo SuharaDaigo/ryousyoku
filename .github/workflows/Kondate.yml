@@ -38,6 +38,8 @@ jobs:
           pip install tweepy
           pip install datetime
           pip install openpyxl
+          pip install tqdm
+          pip install chunked
       - name: Run script
         working-directory: scripts
         run:
