@@ -7,7 +7,7 @@ name: get-ryousyoku
  
 on:
   schedule:
-   - cron: '30 13 * * *'
+   - cron: '40 14 * * *'
   # Triggers the workflow on push or pull request events but only for the main branch
   
 
@@ -38,12 +38,15 @@ jobs:
           pip install datetime
           pip install openpyxl
           pip install tqdm
-          pip install more_itertools
+          pip install more_itertools 
+      - name: ghostscript
+        run:
+          apt install ghostscript
       - name: Run script
         working-directory: scripts
         run:
           python get-ryousyoku.py
-          apt install ghostscript
+          
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
