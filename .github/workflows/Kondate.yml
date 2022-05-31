@@ -7,7 +7,7 @@ name: get-ryousyoku
  
 on:
   schedule:
-   - cron: '50 6 * * *'
+   - cron: '25 7 * * *'
   # Triggers the workflow on push or pull request events but only for the main branch
   
 
@@ -39,7 +39,7 @@ jobs:
           pip install datetime
           pip install openpyxl
           pip install tqdm
-          pip install chunked
+          pip install more_itertools
       - name: Run script
         working-directory: scripts
         run:
