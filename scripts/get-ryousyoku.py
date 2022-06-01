@@ -37,8 +37,6 @@ df = pd.concat(list,axis=1)
 
 df.to_excel("ryousyoku.xlsx",index=False)
 
-#openpyxlモジュールを使用する
-import openpyxl
  
 #既存のExcelファイルを開く
 wb=openpyxl.load_workbook('ryousyoku.xlsx')
