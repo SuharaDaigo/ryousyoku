@@ -61,10 +61,10 @@ while (i<100):
 # ロードしたExcelファイルを閉じる
 workbook.close()
 #夕食###############################################################
-CK = "ZhiQDXi3WTgVg1cmBXgTimDkt"
-CS = "DkfEjACdtF9K7cFQbzIrnNRvQ1oLubWO5isspDFjpfTqIkr9HE"
-AT = "1517107959049846784-Q3bpbGOXcpDSh7EJ3EcAdPPL7T2LT9"
-AS = "fZea1RAUSLDiiuTkPCpK3PFMlma87UsjU3RT5iM7R08Ao"
+CK = "############"
+CS = "#############"
+AT = "############"
+AS = "############"
 
 f = open('ryousyoku2.txt', 'r', encoding='UTF-8')
 data2 = f.read()
